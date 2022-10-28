@@ -8,7 +8,7 @@ export default defineConfig({
   server: {
     proxy: {
       '/api': {
-        target: 'https://task-management-system-production.up.railway.app',
+        target:'https://task-management-system-production.up.railway.app',
       },
     },
   },
