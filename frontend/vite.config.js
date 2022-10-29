@@ -9,7 +9,7 @@ export default defineConfig({
   server: {
     proxy: {
       '/api': {
-        target:'https://task-management-system-production.up.railway.app',
+        target:'https://express-1v4n.onrender.com',
       },
     },
   },
